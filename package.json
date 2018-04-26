@@ -1,0 +1,24 @@
+{
+  "name": "brightcove-bulk-download",
+  "version": "1.0.0",
+  "description": "This node script takes an excel sheet of Brightcove video reference ids and downloads the mp4 video rendition with the highest average bitrate and the greatest width",
+  "main": "video_download.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theresaweb/brightcove-bulk-download.git"
+  },
+  "author": "Theresa Newman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theresaweb/brightcove-bulk-download/issues"
+  },
+  "homepage": "https://github.com/theresaweb/brightcove-bulk-download#readme",
+  "dependencies": {
+    "node-xlsx": "^0.12.0",
+    "prompt": "^1.0.0",
+    "request": "^2.85.0"
+  }
+}
